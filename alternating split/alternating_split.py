@@ -29,5 +29,3 @@ def alternating_split(head):
     if head1.next is None or head2.next is None:
         raise Exception('Error occured')
     return Context(head1.next, head2.next)
-
-
