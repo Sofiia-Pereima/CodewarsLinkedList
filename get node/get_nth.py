@@ -14,4 +14,4 @@ def get_nth(node, index):
     if ptr is None:
         raise Exception('Error occured')
     if ptr is not None:
-        return ptr.data
+        return ptr
