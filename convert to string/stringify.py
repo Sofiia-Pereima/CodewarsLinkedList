@@ -1,7 +1,7 @@
 def stringify(node):
     ptr = node
     result = ''
-    while ptr != None:
+    while ptr is not None:
         result += str(ptr.data) + ' -> '
         ptr = ptr.next
     result += 'None'
